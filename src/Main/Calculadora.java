@@ -54,12 +54,13 @@ public class Calculadora extends javax.swing.JFrame {
         acumulacion = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setTitle("Calculadora");
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
         Salida.setBackground(new java.awt.Color(255, 255, 255));
         Salida.setFont(new java.awt.Font("SansSerif", 1, 28)); // NOI18N
-        Salida.setForeground(new java.awt.Color(0, 0, 0));
+        Salida.setForeground(new java.awt.Color(0, 22, 29));
         Salida.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
         Salida.setOpaque(true);
 
@@ -251,7 +252,7 @@ public class Calculadora extends javax.swing.JFrame {
         });
 
         acumulacion.setFont(new java.awt.Font("Malgun Gothic Semilight", 1, 12)); // NOI18N
-        acumulacion.setForeground(new java.awt.Color(51, 51, 51));
+        acumulacion.setForeground(new java.awt.Color(0, 22, 29));
         acumulacion.setHorizontalAlignment(javax.swing.SwingConstants.RIGHT);
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
